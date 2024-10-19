@@ -1,8 +1,20 @@
-# React + Vite
+# Kalkulator Pajak Sederhana
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Deskripsi
+Proyek ini dapat dibuat karena pada saat lintas jurusan, saya mengambil mata kuliah perpajakan. Dalam mata kuliah ini, saya belajar tentang cara menghitung PPh (Pajak Penghasilan), sehingga saya dapat membuat kalkulator pajak sederhana.
 
-Currently, two official plugins are available:
+Kalkulator pajak ini memungkinkan pengguna untuk menghitung pajak penghasilkan berdasarkan penghasilan mereka. Namun, perlu dicatat bahwa kalkulator ini belum sepenuhnya mengikuti aturan perpajakan yang berlaku, karena keterbatasan pengetahuan saya saat ini (belum mempelajari aturan yang ada).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fitur
+- Input penghasilan per bulan
+- Pemilihan status pernikahan
+- Pemilihan jumlah tanggungan
+
+## Catatan
+Proyek ini masih dalam pengembangan dan akan terus diperbarui seiring dengan pemahaman saya tentang perpajakan yang semakin mendalam.
+
+## Cara Menggunakan
+1. Masukkan penghasilan bulanan anda di dalam kolom input (dapat diinput dengan menekan keypad angka yang tersedia / langsung menuliskannya).
+2. Pilih status pernikahan Anda.
+3. Pilih banyaknya tanggungan
+4. Klik tombol "Hitung" untuk mendapatkan jumlah pajak yang harus di bayar.
